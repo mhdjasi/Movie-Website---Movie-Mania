@@ -171,4 +171,16 @@ transition: all 0.5s;
 
 }
 
+@media ((max-width:650px)){
+    .banner{
+        height: 70vh;
+    }
+    .bannerTitle{
+        margin-top: 200px;
+ 
+    }
+    
+
+}
+
 
