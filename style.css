@@ -148,6 +148,19 @@ transition: all 0.5s;
 
 @media ((max-width:600px)){
     .banner{
+        height: 70vh;
+    }
+    .bannerTitle{
+        margin-top: 200px;
+ 
+    }
+    
+
+}
+
+
+@media ((max-width:450px)){
+    .banner{
         height: 50vh;
     }
     .bannerTitle{
@@ -157,4 +170,5 @@ transition: all 0.5s;
     
 
 }
+
 
