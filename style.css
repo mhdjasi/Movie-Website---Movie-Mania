@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -12,6 +15,9 @@ body{
 .first{
     color: white;
     margin-left: 20px;
+}
+.first h2{
+    font-size: 20px;
 }
 
 .fullposters {
@@ -66,13 +72,13 @@ body{
 
 }
 .bannerTitle{
-    margin-top: 290px;
+    margin-top: 200px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     padding-bottom: 30px;
     cursor: pointer;
-    word-spacing: 30px;
+    word-spacing: 10px;
     -webkit-text-stroke: 1px rgba(255, 0, 0, 0.747);
 
 }
@@ -116,12 +122,12 @@ transition: all 0.5s;
 }
 
 
-@media ((max-width:700px)){
+@media screen and ((max-width:750px)){
     .banner{
         height: 70vh;
     }
     .bannerTitle{
-        margin-top: 100px;
+        margin-top: 40%;
         text-align: center;
         font-size: 30px;
         font-weight: 400;
@@ -146,54 +152,24 @@ transition: all 0.5s;
     
 }
 
-@media ((max-width:600px)){
+
+
+
+@media screen and ((max-width:650px)){
     .banner{
         height: 70vh;
     }
     .bannerTitle{
-        margin-top: 200px;
- 
-    }
+        margin-top: 40%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        padding-bottom: 30px;
+        cursor: pointer;
+        word-spacing: 10px;
+        -webkit-text-stroke: 1px rgba(255, 0, 0, 0.747);
     
-
-}
-
-
-@media ((max-width:450px)){
-    .banner{
-        height: 50vh;
     }
-    .bannerTitle{
-        margin-top: 200px;
  
-    }
     
-
 }
-
-@media ((max-width:650px)){
-    .banner{
-        height: 70vh;
-    }
-    .bannerTitle{
-        margin-top: 200px;
- 
-    }
-    
-
-}
-
-@media ((max-width:300px)){
-    .banner{
-        height: 70vh;
-    }
-    .bannerTitle{
-        margin-top: 200px;
- 
-    }
-    
-
-}
-
-
-
